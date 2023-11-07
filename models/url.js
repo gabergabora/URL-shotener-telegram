@@ -13,7 +13,7 @@ const shortUrlSchema = new mongoose.Schema({
 	},
 	short: {
 		type: String,
-		required: true,
+		required: true,      
 		default: shortId.generate
 	},
 	clicks: {
